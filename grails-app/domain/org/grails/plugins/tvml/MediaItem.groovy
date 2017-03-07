@@ -46,8 +46,8 @@ class MediaItem {
         title nullable: false, blank: false, maxSize: 255
         subtitle nullable: true, maxSize: 255
         description nullable: true
-        artworkImageURL nullable: true, url: true, maxSize: 255
-        url nullable: true, url: true, maxSize: 255
+        artworkImageURL nullable: true, maxSize: 255
+        url nullable: true, maxSize: 255
         closedCaptioning default: false
         highDefinition default: false
         durationMinutes nullable: false
