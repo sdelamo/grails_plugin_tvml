@@ -28,8 +28,17 @@
     </g:hasErrors>
     <g:form action="save">
         <fieldset class="form">
+
             <f:field bean="mediaItem" property="title"/>
+
+            <f:field bean="mediaItem" property="durationMinutes"/>
+
+            <f:field bean="mediaItem" property="durationSeconds"/>
+
+            <f:field bean="mediaItem" property="releaseYear"/>
+
             <f:field bean="mediaItem" property="subtitle"/>
+
             <f:field bean="mediaItem" property="description"/>
 
             <f:field bean="mediaItem" property="type"/>
