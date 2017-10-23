@@ -1,13 +1,9 @@
 package org.grails.plugins.tvml
 
-import grails.test.mixin.TestFor
 import spock.lang.Specification
+import grails.testing.gorm.DomainUnitTest
 
-/**
- * See the API for {@link grails.test.mixin.domain.DomainClassUnitTestMixin} for usage instructions
- */
-@TestFor(MediaItem)
-class MediaItemSpec extends Specification {
+class MediaItemSpec extends Specification implements DomainUnitTest<MediaItem> {
 
     def "Title cannot be null"() {
         when:
